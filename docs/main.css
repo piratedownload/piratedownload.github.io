@@ -1,0 +1,110 @@
+div.nj-root {
+    width: 100%;
+    height: 100vh;
+    display: inline-block;
+    text-align: center;
+}
+
+div.nj-root>div {
+    width: 100%;
+    flex: 1 1 100%;
+}
+
+.nj-head > h2 {
+    font-size: 48px;
+}
+
+.nj-logo-wrap {
+    padding-bottom: 24px;
+}
+
+.nj-logo-wrap > img,.nj-logo-wrap > canvas {
+    width: 220px;
+    height: 220px;
+    border-radius: 8px;
+}
+
+div.nj-actions  {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.nj-actions a {
+    text-decoration: none;
+    margin-top: 24px;
+}
+
+
+a.btn-download {
+    min-width: 280px;
+    line-height: 40px;
+    font-size: 1.15rem;
+    border-radius: 8px;
+    padding: 12px 50px;
+}
+
+a.btn-download:hover {
+    opacity: 0.75;
+}
+
+a.btn-download.apk {
+    background: linear-gradient(90deg, #6888D9 0%, #BB6FDE 100%);
+    color: #fff;
+}
+
+a.btn-download.copy {
+    line-height: 32px;
+    border: 1px solid #ccc;
+    color: black;
+    cursor: pointer;
+}
+
+.tip {
+    font-size: 0.85rem;
+    padding-top: 6px;
+}
+
+.tip.tip-success {
+    color: chartreuse;
+}
+
+.tip.tip-error {
+    color: red;
+}
+.tip.tip-hide {
+    display: none;
+}
+
+div.wx-tip {
+    position: absolute;
+    top:10px;
+    left:0;
+    padding: 4px 12px;
+    text-align: center;
+    width: 100vw;
+    z-index: 999;
+    color: #cb3837;
+    font-size: 1.15rem;
+}
+
+div.wx-tip > span {
+    margin-right: 6px;
+}
+
+div.wx-tip.hide {
+    display: none;
+}
+
+/* responsive */
+/*6*/
+@media (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+    .nj-head > h2 {
+        font-size: 48px;
+    }
+
+    a.btn-download {
+        padding: 6px 6px;
+    }
+}
