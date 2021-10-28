@@ -1,5 +1,5 @@
 window.njconfig={
-    apkurl:"https://dl.testfairy.com/download/74VK2DSJ74SJTC1D1DXJEN45WY9G878X1P39QT1PPGTW5YPV/pirate_2.80.00-testfairy.apk",
+    apkurl:"https://dl.testfairy.com/download/74VK6C1S70S2TC1DQ55GNK8D0B621ZBBXFQ51CSTD14KN0EM/pirate_2.90.00-testfairy.apk",
     isourl:"",
     qrdltext:"https://piratedownload.github.io"
 };
